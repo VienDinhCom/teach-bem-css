@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-recommended-scss"
+  ],
+  "plugins": [
+    "stylelint-scss",
+    "@namics/stylelint-bem"
+  ],
+  "rules": {
+    "indentation": 2,
+    "selector-max-id": 0,
+    "comment-empty-line-before": null,
+    "no-descending-specificity": null,
+    "selector-max-compound-selectors": 2,
+    "declaration-empty-line-before": "never",
+    "no-missing-end-of-source-newline": "never",
+    "block-opening-brace-newline-after": "always",
+    "block-closing-brace-newline-before": "always",
+    "unit-whitelist": [ "em", "rem", "deg", "vh", "vw", "%", "s", "px" ],
+    "rule-empty-line-before": [ "always", {
+      "ignore": [ "first-nested", "after-comment" ]
+    }],
+    "at-rule-empty-line-before": [ "always", {
+      "except": [ "blockless-after-same-name-blockless" ],
+      "ignoreAtRules": ["include"]
+    }],
+    "plugin/stylelint-bem-namics": {
+      "patternPrefixes": [ "app" ],
+      "helperPrefixes": [ "is", "has" ]
+    }
+  }
+}
