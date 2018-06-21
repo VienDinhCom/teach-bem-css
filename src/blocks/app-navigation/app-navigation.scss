@@ -1,3 +1,56 @@
 :host {
   background: #000;
+  display: flex;
+  font-size: 22px;
+
+  &__toggle {
+    $border: 1px solid #3c3c3c;
+    border: none;
+    border-left: $border;
+    border-right: $border;
+    background: none;
+    padding: 0;
+    width: 55px;
+    line-height: 55px;
+    font-size: 22px;
+    color: #999;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  &__logo {
+    flex: 1;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 5px;
+    line-height: 55px;
+    color: #fff;
+  }
+
+  &__social {
+    font-size: 16px;
+    display: flex;
+  }
+
+  &__social-link {
+    display: block;
+    width: 55px;
+    line-height: 55px;
+    $border: 1px solid #3c3c3c;
+    border: none;
+    border-left: $border;
+    text-align: center;
+    color: #999;
+    text-decoration: none;
+
+    &:hover {
+      color: #fff;
+    }
+
+    &:last-child {
+      border-right: $border;
+    }
+  }
 }
