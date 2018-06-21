@@ -1,0 +1,19 @@
+:host {
+  top: 0;
+  left: 0;
+  font-size: 18px;
+
+  &__home {
+    padding: 15px 0px;
+  }
+
+  &__icon {
+    padding: 22px;
+    border: 1px solid #3c3c3c; 
+  } 
+  
+  &__link {
+    display: flex;
+    background-color: #212429;
+  }
+}
