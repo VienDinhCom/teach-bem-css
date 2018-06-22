@@ -1,21 +1,31 @@
 :host {
-  background: #000;
+  background: $color-primary;
   display: flex;
-  font-size: 22px;
 
-  &__toggle {
+  &__icon {
     border: none;
-    border-left: 1px solid #3c3c3c;
     border-right: 1px solid #3c3c3c;
     background: none;
     padding: 0;
+    display: block;
     width: 55px;
     line-height: 55px;
-    font-size: 22px;
+    font-size: 16px;
     color: #999;
+    text-align: center;
+    text-decoration: none;
 
     &:hover {
       color: #fff;
+      cursor: pointer;
+    }
+
+    &:first-child {
+      border-left: 1px solid #3c3c3c;
+    }
+
+    &--large {
+      font-size: 22px;
     }
   }
 
@@ -26,30 +36,10 @@
     letter-spacing: 5px;
     line-height: 55px;
     color: #fff;
+    font-size: 22px;
   }
 
   &__social-links {
-    font-size: 16px;
     display: flex;
-  }
-
-  &__social-link {
-    display: block;
-    width: 55px;
-    line-height: 55px;
-    $border: 1px solid #3c3c3c;
-    border: none;
-    border-left: $border;
-    text-align: center;
-    color: #999;
-    text-decoration: none;
-
-    &:hover {
-      color: #fff;
-    }
-
-    &:last-child {
-      border-right: $border;
-    }
   }
 }
