@@ -4,10 +4,9 @@
   font-size: 22px;
 
   &__toggle {
-    $border: 1px solid #3c3c3c;
     border: none;
-    border-left: $border;
-    border-right: $border;
+    border-left: 1px solid #3c3c3c;
+    border-right: 1px solid #3c3c3c;
     background: none;
     padding: 0;
     width: 55px;
