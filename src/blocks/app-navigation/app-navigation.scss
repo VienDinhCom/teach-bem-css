@@ -35,9 +35,13 @@
     font-weight: 600;
     letter-spacing: 5px;
     line-height: 55px;
-    color: #fff;
     font-size: 22px;
     font-family: 'Hind', sans-serif;
+  }
+
+  &__logo-link {
+    text-decoration: none;
+    color: #fff;
   }
 
   &__logo-icon {
