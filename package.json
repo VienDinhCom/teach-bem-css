@@ -36,6 +36,7 @@
     "gulp-stylelint": "^7.0.0",
     "gulp-tap": "^1.0.1",
     "gulp-watch": "^5.0.0",
+    "handlebars-helpers": "^0.10.0",
     "handlebars-layouts": "^3.1.4",
     "stylelint": "^9.2.0",
     "stylelint-config-recommended-scss": "^3.2.0",
