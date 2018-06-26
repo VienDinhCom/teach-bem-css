@@ -1,0 +1,6 @@
+{
+  "emmet.triggerExpansionOnTab": true,
+  "editor.tabSize": 2,
+  "eslint.autoFixOnSave": true,
+  "git.autofetch": true,
+}
