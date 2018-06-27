@@ -1,11 +1,10 @@
 :host {
-  background: #000;
 
-  &--light {
+  &--vertical {
 
   }
 
-  &--dark {
+  &--horizontal {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
