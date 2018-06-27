@@ -1,19 +1,54 @@
 :host {
-  top: 0;
-  left: 0;
-  font-size: 18px;
-
-  &__home {
-    padding: 15px 0px;
-  }
+  background: $color-primary;
+  display: flex;
 
   &__icon {
-    padding: 22px;
-    border: 1px solid #3c3c3c; 
-  } 
-  
-  &__link {
+    border: none;
+    border-right: 1px solid #3c3c3c;
+    background: none;
+    padding: 0;
+    display: block;
+    width: 55px;
+    line-height: 55px;
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+    text-decoration: none;
+
+    &:hover {
+      color: #fff;
+      cursor: pointer;
+    }
+
+    &:first-child {
+      border-left: 1px solid #3c3c3c;
+    }
+
+    &--large {
+      font-size: 22px;
+    }
+  }
+
+  &__logo {
+    flex: 1;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 5px;
+    line-height: 55px;
+    font-size: 22px;
+    font-family: 'Hind', sans-serif;
+  }
+
+  &__logo-link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  &__logo-icon {
+    font-size: 19px;
+  }
+
+  &__social-links {
     display: flex;
-    background-color: #212429;
   }
 }
