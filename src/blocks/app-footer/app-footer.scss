@@ -1,4 +1,12 @@
 :host {
-  background: $color-primary;
   color: #f7f7f7;
+
+  &__body {
+    background: #212429;
+    padding: 45px 0;
+  }
+
+  &__footer {
+    background: #17191c;
+  }
 }

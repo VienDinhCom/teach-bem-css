@@ -1,3 +1,10 @@
 :host {
-  background: #000;
+
+  &__content {
+
+  }
+
+  &__about-image {
+    width: 100%;
+  }
 }

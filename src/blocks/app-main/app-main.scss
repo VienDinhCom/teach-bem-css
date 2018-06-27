@@ -1,0 +1,16 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0;
+
+  &__content {
+    background: red;
+    flex: 1;
+    margin-right: 30px;
+  }
+
+  &__sidebar {
+    flex-basis: calc(100% / 4 - 90px / 4);
+    background: blue;
+  }
+}

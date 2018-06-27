@@ -1,0 +1,19 @@
+:host {
+  background: #000;
+
+  &--light {
+
+  }
+
+  &--dark {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .app-widget {
+      flex-basis: calc(100% / 4 - 90px / 4);
+      margin: 15px 0;
+      background: red;
+    }
+  }
+}
