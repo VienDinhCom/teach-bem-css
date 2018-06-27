@@ -1,5 +1,9 @@
 :host {
 
+  &__about-image {
+    width: 100%;
+  }
+
   &--light {
     margin-bottom: 40px;
 
@@ -18,7 +22,19 @@
     }
   }
 
-  &__about-image {
-    width: 100%;
+  &--dark {
+    margin-bottom: 40px;
+    color: #fff;
+
+    :host {
+
+      &__title {
+        margin: -3px 0 37px 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 16px;
+      }
+    }
   }
 }

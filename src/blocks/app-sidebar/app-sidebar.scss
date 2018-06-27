@@ -1,9 +1,5 @@
 :host {
 
-  &--vertical {
-
-  }
-
   &--horizontal {
     display: flex;
     flex-wrap: wrap;
@@ -11,8 +7,7 @@
 
     .app-widget {
       flex-basis: calc(100% / 4 - 90px / 4);
-      margin: 15px 0;
-      background: red;
+      margin: 30px 0;
     }
   }
 }
