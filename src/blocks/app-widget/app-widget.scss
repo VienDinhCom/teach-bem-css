@@ -1,0 +1,40 @@
+:host {
+
+  &__about-image {
+    width: 100%;
+  }
+
+  &--light {
+    margin-bottom: 40px;
+
+    :host {
+
+      &__title {
+        margin: -3px 0 27px 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 17px;
+        border-bottom: 1px solid #f7f7f7;
+      }
+    }
+  }
+
+  &--dark {
+    margin-bottom: 40px;
+    color: #fff;
+
+    :host {
+
+      &__title {
+        margin: -3px 0 37px 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 16px;
+      }
+    }
+  }
+}
