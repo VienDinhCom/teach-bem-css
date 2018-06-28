@@ -3,7 +3,6 @@
 
   &__background {
     border: 1px solid #f5f5f7;
-    width: 930px;
     margin: 98px 54px 103px;
   }
 
@@ -11,7 +10,6 @@
 
     &-background {
     background-color: gray;
-    width: 900px;
     height: 490px;
     padding: 10px 15px;
     }
@@ -50,12 +48,10 @@
 
   &-content {
     height: 580px;
-    width: 900px;
     padding: 10px 15px;
   }
 
   &__title {
-    width: 900px;
     height: 110px;
     font-weight: bold;
     text-transform: uppercase;
@@ -89,7 +85,6 @@
 
   &-info {
     text-align: center;
-    width: 815px;
     margin: 38px 30px;
 
     &--boild {

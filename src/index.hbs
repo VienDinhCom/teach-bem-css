@@ -1,17 +1,5 @@
 {{#extend "app-layout"}}
   {{#content "app-layout-children"}}
-    <div class="app-container">
-      {{> app-navigation}}
-      {{#extend "app-main"}}
-        {{#content "app-main-content"}}
-          Content
-        {{/content}}
-        {{#content "app-main-sidebar"}}
-          {{> app-sidebar style="vertical"}}
-        {{/content}}
-      {{/extend}}
-    </div>
-    <!-- /.app-container -->
-    {{> app-footer}}
+
   {{/content}}
 {{/extend}}
