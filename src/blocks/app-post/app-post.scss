@@ -1,75 +1,57 @@
 :host {
-  font-size: 16px;
-
-  &__background {
-    border: 1px solid #f5f5f7;
-    margin: 98px 54px 103px;
-  }
-
   &__header {
-
-    &-background {
     background-color: gray;
     height: 490px;
     padding: 10px 15px;
-    }
-
-    &-icon {
-      width: 0;
-      height: 50px;
-    }
-
-    &-p {
-      position: relative;
-      left: 869px;
-      bottom: 510px;
-      background-color: red;
-      width: 51px;
-      height: 44px;
-      font-size: 28px;
-      text-align: center;
-      color: white;
-      padding: 10px 5px 0;
-    }
-
-    &-l {
-      position: relative;
-      left: 430px;
-      bottom: 72px;
-      background-color: black;
-      width: 40px;
-      height: 28px;
-      color: white;
-      text-align: center;
-      font-size: 22px;
-      padding-top: 7px;
-    }
+    position: relative;
   }
 
-  &-content {
-    height: 580px;
-    padding: 10px 15px;
+  &__pinterest {
+    position: absolute;
+    background-color: red;
+    width: 51px;
+    height: 44px;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    padding: 10px 5px 0;
+    top: 0;
+    right: 0;
+  }
+
+  &__type {
+    position: absolute;
+    background-color: black;
+    width: 40px;
+    height: 28px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 7px;
+    bottom: -18px;
+    right: 365px;
+  }
+
+  &__category {
+    position: absolute;
+    text-transform: uppercase;
+    bottom: -75px;
+    right: 350px;
   }
 
   &__title {
-    height: 110px;
-    font-weight: bold;
+    position: absolute;
     text-transform: uppercase;
-    text-align: center;
-
-    &-travelling {
-      font-weight: normal;
-      color: #b0b0b0;
-    }
-
-    &-aboutme {
-      font-size: 28px;
-    }
+    bottom: -130px;
+    right: 325px;
   }
 
   &__meta {
     display: flex;
-    padding-left: 315px;
+    position: absolute;
+    text-transform: uppercase;
+    bottom: -145px;
+    right: 245px;
 
     &-item {
       font-size: 14.24px;
@@ -83,13 +65,8 @@
     }
   }
 
-  &-info {
+  &-content {
     text-align: center;
-    margin: 38px 30px;
-
-    &--boild {
-      width: 480px;
-      margin: 0 210px;
-    }
+    padding-top: 135px;
   }
 }

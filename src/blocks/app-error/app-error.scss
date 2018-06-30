@@ -1,0 +1,41 @@
+:host {
+  text-align: center;
+  background-color: #f9f9fb;
+
+  &__404 {
+    width: 100%;
+    font-size: 346px;
+    color: #363636;
+    table-layout: fixed;
+  }
+
+  &__404-content {
+    position: absolute;
+    font-size: 20px;
+    text-transform: uppercase;
+    top: 200px;
+    left: 526px;
+    max-width: 100%;
+    background-color: white;
+    align-self: auto;
+  }
+
+  &__button {
+    border: 1px solid white;
+    line-height: 52px;
+  }
+
+  &__content-title {
+    font-size: 30px;
+    color: #363636;
+  }
+
+  &__content-nd {
+    font-size: 14px;
+    color: #afafaf;
+  }
+
+  &__hbs {
+    display: flex;
+  }
+}
