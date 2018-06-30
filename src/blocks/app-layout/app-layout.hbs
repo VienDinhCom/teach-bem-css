@@ -11,8 +11,20 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
   <link rel="stylesheet" href="assets/styles/main.css">
 </head>
-<body class="app-layout mdc-typography">
-  {{#block "app-layout-children"}}
-  {{/block}}
+<body class="app-layout">
+  <div class="app-container">
+    {{> app-navigation}}
+    {{#extend "app-main"}}
+      {{#content "app-main-content"}}
+        {{#block "app-layout-children"}}
+        {{/block}}
+      {{/content}}
+      {{#content "app-main-sidebar"}}
+        {{> app-sidebar style="vertical"}}
+      {{/content}}
+    {{/extend}}
+  </div>
+  <!-- /.app-container -->
+  {{> app-footer}}
 </body>
 </html>
