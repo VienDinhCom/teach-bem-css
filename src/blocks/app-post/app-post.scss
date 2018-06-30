@@ -1,0 +1,95 @@
+:host {
+  font-size: 16px;
+
+  &__background {
+    border: 1px solid #f5f5f7;
+    margin: 98px 54px 103px;
+  }
+
+  &__header {
+
+    &-background {
+    background-color: gray;
+    height: 490px;
+    padding: 10px 15px;
+    }
+
+    &-icon {
+      width: 0;
+      height: 50px;
+    }
+
+    &-p {
+      position: relative;
+      left: 869px;
+      bottom: 510px;
+      background-color: red;
+      width: 51px;
+      height: 44px;
+      font-size: 28px;
+      text-align: center;
+      color: white;
+      padding: 10px 5px 0;
+    }
+
+    &-l {
+      position: relative;
+      left: 430px;
+      bottom: 72px;
+      background-color: black;
+      width: 40px;
+      height: 28px;
+      color: white;
+      text-align: center;
+      font-size: 22px;
+      padding-top: 7px;
+    }
+  }
+
+  &-content {
+    height: 580px;
+    padding: 10px 15px;
+  }
+
+  &__title {
+    height: 110px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+
+    &-travelling {
+      font-weight: normal;
+      color: #b0b0b0;
+    }
+
+    &-aboutme {
+      font-size: 28px;
+    }
+  }
+
+  &__meta {
+    display: flex;
+    padding-left: 315px;
+
+    &-item {
+      font-size: 14.24px;
+      padding-right: 15px;
+      font-weight: normal;
+      color: #b0b0b0;
+    }
+
+    &-icon {
+      color: black;
+    }
+  }
+
+  &-info {
+    text-align: center;
+    margin: 38px 30px;
+
+    &--boild {
+      width: 480px;
+      margin: 0 210px;
+    }
+  }
+}
