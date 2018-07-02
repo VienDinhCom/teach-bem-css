@@ -12,19 +12,26 @@
   <link rel="stylesheet" href="assets/styles/main.css">
 </head>
 <body class="app-layout">
-  <div class="app-container">
-    {{> app-navigation}}
-    {{#extend "app-main"}}
-      {{#content "app-main-content"}}
-        {{#block "app-layout-children"}}
-        {{/block}}
-      {{/content}}
-      {{#content "app-main-sidebar"}}
-        {{> app-sidebar style="vertical"}}
-      {{/content}}
-    {{/extend}}
-  </div>
-  <!-- /.app-container -->
-  {{> app-footer}}
+  {{#is style "default"}}
+    <div class="app-container">
+      {{> app-navigation}}
+      {{#extend "app-main"}}
+        {{#content "app-main-content"}}
+          {{#block "app-layout-children"}}
+          {{/block}}
+        {{/content}}
+        {{#content "app-main-sidebar"}}
+          {{> app-sidebar style="vertical"}}
+        {{/content}}
+      {{/extend}}
+    </div>
+    <!-- /.app-container -->
+    {{> app-footer}}
+  {{/is}}
+
+  {{#is style "error"}}
+    {{#block "app-layout-children"}}
+    {{/block}}
+  {{/is}}
 </body>
 </html>
