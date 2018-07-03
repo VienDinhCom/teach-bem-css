@@ -2,10 +2,10 @@
 
   <div class="app-post__header">
     <i class="app-post__pinterest fab fa-pinterest-p"></i>
-    <img class="app-post__cover" src="" alt="">
+    <img class="app-post__cover" src="http://lorempixel.com/1600/900/" alt="">
     <i class="app-post__type far fa-image"></i>
-    <a class="app-post__category" href="">travelling</a>
-    <h1 class="app-post__title">about me</h1>
+    <a class="app-post__category" href="">{{category}}</a>
+    <h1 class="app-post__title">{{title}}</h1>
     <div class="app-post__meta">
       <span class="app-post__meta-item"><i class="app-post__meta-icon fas fa-user-alt"></i> dice acalister</span>
       <span class="app-post__meta-item"><i class="app-post__meta-icon far fa-calendar-alt"></i> january 16, 2016</span>
@@ -21,11 +21,14 @@
       <p>We moved on. There were shops dealing in all sorts of goods. There were the cloth merchants, chemists, jewellers, confectioners1, tobaccoonists, leather goods merchants, wine merchants, gramophone dealers, radio shops and shops dealing in general merchandise. The show cases exhibited the goods in style to great idea gave a so much tempt us.</p>
     </section>
   </div>
-
+  {{#is style "article"}}
   <div class="app-post__footer">
-    <div class="app-post__tags"></div>
+    <div class="app-post__tags">
+      Tags
+    </div>
     <div class="app-post__actions">
-
+      Actions
     </div>
   </div>
+  {{/is}}
 </article>
