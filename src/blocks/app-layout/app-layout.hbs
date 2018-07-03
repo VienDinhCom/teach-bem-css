@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Personal Blog</title>
+  <link rel="stylesheet" href="assets/vendor/normalize/normalize.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  <link rel="stylesheet" href="assets/styles/main.css">
+</head>
+<body class="app-layout">
+  {{#is style "default"}}
+    <div class="app-container">
+      {{> app-navigation}}
+      {{#extend "app-main"}}
+        {{#content "app-main-content"}}
+          {{#block "app-layout-children"}}
+          {{/block}}
+        {{/content}}
+        {{#content "app-main-sidebar"}}
+          {{> app-sidebar style="vertical"}}
+        {{/content}}
+      {{/extend}}
+    </div>
+    <!-- /.app-container -->
+    {{> app-footer}}
+  {{/is}}
+
+  {{#is style "error"}}
+    {{#block "app-layout-children"}}
+    {{/block}}
+  {{/is}}
+</body>
+</html>

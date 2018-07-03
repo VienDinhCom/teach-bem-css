@@ -1,0 +1,72 @@
+:host {
+  &__header {
+    background-color: gray;
+    height: 490px;
+    padding: 10px 15px;
+    position: relative;
+  }
+
+  &__pinterest {
+    position: absolute;
+    background-color: red;
+    width: 51px;
+    height: 44px;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    padding: 10px 5px 0;
+    top: 0;
+    right: 0;
+  }
+
+  &__type {
+    position: absolute;
+    background-color: black;
+    width: 40px;
+    height: 28px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 7px;
+    bottom: -18px;
+    right: 365px;
+  }
+
+  &__category {
+    position: absolute;
+    text-transform: uppercase;
+    bottom: -75px;
+    right: 350px;
+  }
+
+  &__title {
+    position: absolute;
+    text-transform: uppercase;
+    bottom: -130px;
+    right: 325px;
+  }
+
+  &__meta {
+    display: flex;
+    position: absolute;
+    text-transform: uppercase;
+    bottom: -145px;
+    right: 245px;
+
+    &-item {
+      font-size: 14.24px;
+      padding-right: 15px;
+      font-weight: normal;
+      color: #b0b0b0;
+    }
+
+    &-icon {
+      color: black;
+    }
+  }
+
+  &-content {
+    text-align: center;
+    padding-top: 135px;
+  }
+}
