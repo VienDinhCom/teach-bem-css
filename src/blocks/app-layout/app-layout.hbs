@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-  <link rel="stylesheet" href="assets/vendor/owl-carousel/dist/assets/owl.carousel.min.css"/>
-  <link rel="stylesheet" href="assets/vendor/owl-carousel/dist/assets/owl.theme.default.min.css"/>
+  <link rel="stylesheet" href="assets/vendor/owl-carousel/assets/owl.carousel.min.css"/>
+  <link rel="stylesheet" href="assets/vendor/owl-carousel/assets/owl.theme.default.min.css"/>
   <link rel="stylesheet" href="assets/styles/main.css">
 </head>
 <body class="app-layout">
@@ -18,6 +18,7 @@
     <div class="app-container">
       {{> app-navigation}}
       {{> app-carousel}}
+      {{> app-newsletter}}
       {{#extend "app-main"}}
         {{#content "app-main-content"}}
           {{#block "app-layout-children"}}
@@ -39,7 +40,7 @@
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="assets/vendor/jquery-helpers/jquery-helpers.js"></script>
-  <script src="assets/vendor/owl-carousel/dist/owl.carousel.min.js"></script>
+  <script src="assets/vendor/owl-carousel/owl.carousel.min.js"></script>
   <script src="assets/scripts/main.js"></script>
 </body>
 </html>
