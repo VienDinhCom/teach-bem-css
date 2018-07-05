@@ -13,7 +13,6 @@ $(appCarousel).owlCarousel({
 
     // .app-carousel__nav
     $(appCarousel).find('.owl-nav').addClass('app-carousel__nav');
-    // $(appCarousel).find('.owl-nav').width($(appCarousel).height());
     $(appCarousel).find('.owl-nav .owl-prev').addClass('app-carousel__nav-prev');
     $(appCarousel).find('.owl-nav .owl-prev').html('<i class="fas fa-long-arrow-alt-left"></i>');
     $(appCarousel).find('.owl-nav .owl-next').addClass('app-carousel__nav-next');
