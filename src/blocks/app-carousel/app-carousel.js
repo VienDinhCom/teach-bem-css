@@ -19,5 +19,8 @@ $(appCarousel).owlCarousel({
     $(appCarousel).find('.owl-nav .owl-next').addClass('app-carousel__nav-next');
     $(appCarousel).find('.owl-nav .owl-next').html('<i class="fas fa-long-arrow-alt-right"></i>');
     $('<span class="app-carousel__nav-text">Featured Article</span>').insertAfter('.app-carousel__nav-prev');
+
+    // .app-carousel__dots
+    $(appCarousel).find('.owl-dots').addClass('app-carousel__dots');
   }
 });
