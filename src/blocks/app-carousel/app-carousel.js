@@ -4,6 +4,11 @@ $(appCarousel).owlCarousel({
   items: 1,
   nav: true,
   onInitialized: function () {
+    // .app-carousel__item
+    $('.app-carousel__item').each(function () {
+      $(this).css('background-image', 'url(' + $(this).data('image') + ')');
+    });
+
     // .app-carousel__nav
     $(appCarousel).find('.owl-nav').addClass('app-carousel__nav');
     $(appCarousel).find('.owl-nav').width($(appCarousel).height());
