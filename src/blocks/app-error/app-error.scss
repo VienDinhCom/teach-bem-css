@@ -2,62 +2,38 @@
   text-align: center;
   background-color: #f9f9fb;
 
-  &__relative {
-    position: relative;
-    margin: 0 auto;
-  }
+  &__header {
 
-  &__404 {
-    width: 100%;
+    &-code {
     font-size: 346px;
     color: #363636;
     table-layout: fixed;
-
-    &-content {
-      position: absolute;
-      font-size: 20px;
-      text-transform: uppercase;
-      margin: 0 auto;
-      background-color: white;
-      text-align: center;
-      width: 556px;
-      left: 0;
-      right: 0;
-      top: 245px;
-      letter-spacing: 15px;
-      padding-bottom: 3px;
-      padding-top: 8px;
-      padding-left: 9px;
-    }
-  }
-
-  &__button {
-
-    &-blank {
-      line-height: 52px;
-      width: 600px;
-      height: 50px;
-      padding: 0;
-      border: 1px solid #ccc;
-      padding-left: 20px;
     }
 
-    &-search {
-      width: 160px;
-      height: 52px;
-      background-color: #363636;
-      border: 0;
-      font-size: 14px;
-      color: white;
-      padding: 0;
+    &-message {
+    position: absolute;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    width: 556px;
+    left: 0;
+    right: 0;
+    top: 245px;
+    letter-spacing: 15px;
+    padding-bottom: 3px;
+    padding-top: 8px;
+    padding-left: 9px;
     }
   }
 
   &__content {
+
     &-title {
       font-size: 30px;
       color: #363636;
-      margin-bottom: 15px;
+      font-weight: bold;
     }
 
     &-nd {
@@ -67,16 +43,11 @@
     }
   }
 
-  &__icon {
-    display: flex;
-    display: inline-flex;
+  &__link {
+    text-transform: uppercase;
+    color: #363636;
 
-    &-content {
-      margin-top: 0;
-      margin-left: 15px;
-    }
-
-    &-home {
+    &-icon {
       color: gray;
     }
   }

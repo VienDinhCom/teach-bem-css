@@ -1,5 +1,6 @@
 :host {
   color: #f7f7f7;
+  max-width: 100%;
 
   &__body {
     background: #212429;
@@ -8,5 +9,13 @@
 
   &__footer {
     background: #17191c;
+  }
+
+  &__bla {
+    font-size: 14px;
+  }
+
+  &__column {
+    line-height: 4px;
   }
 }
