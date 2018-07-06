@@ -82,4 +82,50 @@
       padding: 0 135px;
     }
   }
+
+  &__tags {
+    text-align: center;
+    padding-bottom: 35px;
+  }
+
+  &__tag {
+    text-transform: uppercase;
+    margin: 0 2px;
+    color: #a9a9a9;
+
+    &-icon {
+      transform: rotateY(180deg);
+      margin: 0 2px 0 2px;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    border: 1px solid #f7f7f7;
+
+    &-average {
+      text-align: center;
+      margin: 0 120px;
+      color: #999;
+    }
+
+    &-social {
+      padding: 0 8px;
+    }
+  }
+
+  &__rating {
+    color: #999;
+
+    &-star:hover {
+      color: black;
+      cursor: pointer;
+    }
+  }
+
+  &__action {
+    margin: 0 5px;
+  }
 }
