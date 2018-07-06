@@ -4,7 +4,7 @@
   position: relative;
 
   &__item {
-    padding: 200px 0;
+    height: 400px;
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -24,7 +24,8 @@
 
   &__content {
     max-width: 800px;
-    margin-left: 100px;
+    margin-left: 50px;
+    padding-top: 100px;
     position: relative;
     z-index: 2;
 
@@ -50,12 +51,10 @@
 
   &__nav {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    background: red;
+    bottom: 210px;
+    right: -86px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    transform: rotate(270deg);
 
     &-text {
       display: inline-block;
@@ -77,19 +76,5 @@
 
   &__dots {
     display: none;
-    background: red;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: rotate(90deg);
-    height: 100%;
-
-    &-dot {
-      width: 8px !important;
-      height: 8px !important;
-      border: 1px solid #fff !important;
-      background: #000 !important;
-      margin: 0 5px;
-    }
   }
 }
