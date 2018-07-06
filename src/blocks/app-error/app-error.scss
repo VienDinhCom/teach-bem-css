@@ -2,18 +2,15 @@
   text-align: center;
   background-color: #f9f9fb;
 
-  &__relative {
-    position: relative;
-    margin: 0 auto;
-  }
+  &__header {
 
-  &__404 {
-    width: 100%;
-    font-size: 346px;
-    color: #363636;
-    table-layout: fixed;
+    &-code {
+      font-size: 346px;
+      color: #363636;
+      table-layout: fixed;
+    }
 
-    &-content {
+    &-message {
       position: absolute;
       font-size: 20px;
       text-transform: uppercase;
@@ -31,33 +28,12 @@
     }
   }
 
-  &__button {
-
-    &-blank {
-      line-height: 52px;
-      width: 600px;
-      height: 50px;
-      padding: 0;
-      border: 1px solid #ccc;
-      padding-left: 20px;
-    }
-
-    &-search {
-      width: 160px;
-      height: 52px;
-      background-color: #363636;
-      border: 0;
-      font-size: 14px;
-      color: white;
-      padding: 0;
-    }
-  }
-
   &__content {
+
     &-title {
       font-size: 30px;
       color: #363636;
-      margin-bottom: 15px;
+      font-weight: bold;
     }
 
     &-nd {
@@ -67,17 +43,15 @@
     }
   }
 
-  &__icon {
-    display: flex;
-    display: inline-flex;
+  &__link {
 
-    &-content {
-      margin-top: 0;
-      margin-left: 15px;
+    &-icon {
+      color: gray;
     }
 
-    &-home {
-      color: gray;
+    &-item {
+      text-decoration: none;
+      text-transform: uppercase;
     }
   }
 }
