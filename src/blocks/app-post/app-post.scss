@@ -130,34 +130,39 @@
   }
 
   &__button {
-    width: auto;
     height: 100px;
-    background-color: yellow;
     display: flex;
     margin: 40px 0;
+    position: relative;
 
     &-layout {
-      background-color: #999;
+      background-color: #3a3c49;
       text-transform: uppercase;
-      padding: 40px 120px;
-      margin: 0 10px 0 15px;
+      padding: 40px 134px;
+      color: #fff;
+    }
+
+    &-layout:hover {
+      background-color: #000;
+      cursor: pointer;
     }
 
     &-left {
-      padding-right: 3px;
+      padding-right: 10px;
     }
 
     &-right {
-      padding-left: 3px;
+      padding-left: 10px;
     }
   }
 
   &--goleft {
-    margin-left: 0;
+    position: absolute;
+    left: 0;
   }
 
   &--goright {
-    margin-right: 0;
-    padding-right: 200px;
+    position: absolute;
+    right: 0;
   }
 }
