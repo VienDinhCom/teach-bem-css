@@ -128,4 +128,36 @@
   &__action {
     margin: 0 5px;
   }
+
+  &__button {
+    width: auto;
+    height: 100px;
+    background-color: yellow;
+    display: flex;
+    margin: 40px 0;
+
+    &-layout {
+      background-color: #999;
+      text-transform: uppercase;
+      padding: 40px 120px;
+      margin: 0 10px 0 15px;
+    }
+
+    &-left {
+      padding-right: 3px;
+    }
+
+    &-right {
+      padding-left: 3px;
+    }
+  }
+
+  &--goleft {
+    margin-left: 0;
+  }
+
+  &--goright {
+    margin-right: 0;
+    padding-right: 200px;
+  }
 }
