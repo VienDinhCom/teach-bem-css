@@ -52,6 +52,7 @@
     text-transform: uppercase;
     bottom: -130px;
     right: 325px;
+    text-align: center;
   }
 
   &__meta {
@@ -95,7 +96,7 @@
 
     &-icon {
       transform: rotateY(180deg);
-      margin: 0 2px 0 2px;
+      margin: 0 2px;
     }
   }
 
