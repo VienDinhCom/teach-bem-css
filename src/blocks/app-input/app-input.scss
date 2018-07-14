@@ -1,6 +1,8 @@
 :host {
-  width: 240px;
-  &--big{
-    width: 400px;
-  }
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 10px 20px;
+  display: block;
+  box-sizing: border-box;
 }

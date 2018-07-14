@@ -1,13 +1,16 @@
-<newsletter class="app-newsletter">
-  <app-grid>
-    <div class="app-cell">
-      <p class="app-newsletter__para">SIGNUP TO NEWSLETTER</p>
+<section class="app-newsletter">
+
+  <p class="app-newsletter__para">SIGNUP TO NEWSLETTER</p>
+  <form class="app-newsletter__form">
+    <div class="app-newsletter__form-name">
+      {{> app-input tag="input" placeholder="YOUR NAME"}}
     </div>
-    <div class="app-cell">
-      <div class="app-newsletter__form">
-        {{>app-input big=false}}
-        {{>app-button}}
-      </div>
+    <div class="app-newsletter__form-email">
+      {{> app-input tag="input" placeholder="YOUR EMAIL ADDRESS"}}
     </div>
-  </app-grid>
-</newsletter>
+    <div class="app-newsletter__form-button">
+      {{> app-button text="subscribe now"}}
+    </div>
+  </form>
+
+</section>

@@ -1,2 +1,7 @@
-<input class="app-input {{#if big}}app-input--big {{/if}}" type="text" value="YOUR NAME">
-<input class="app-input {{#if big}}app-input--big {{/if}}" type="text" value="YOUR EMAIL ADDRESS">
+{{#is tag "input"}}
+  <input class="app-input" type="{{type}}" placeholder="{{placeholder}}" />
+{{/is}}
+
+{{#is tag "textarea"}}
+  <textarea class="app-input" {{#if cols}}cols="{{cols}}"{{/if}} rows="{{rows}}" placeholder="{{placeholder}}"></textarea>
+{{/is}}

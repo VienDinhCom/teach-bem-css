@@ -1,16 +1,46 @@
-<contact class="app-contact">
-  <div class="app-contact__positions">
-    <img class="app-contact__position app-contact__position--img" src="assets/images/map.jpg" alt="" width="435px" height="292px">
-    <article class="app-contact__position app-contact__position--article">
-        <h2 class="app-contact__position--article-title">Contact information</h2>
-        <p class="app-contact__position--article-para">In case you some aquestions popped in your’s mind, Fein case you some aquestions popped in your'el email even visit us.</p>
-        <div class="app-contact__position--article-inf">
-          <i class="fas fa-home app-contact__position--address">Address: 123 Street Name, City Name, United States.</i>
-          <i class="fas fa-envelope-square app-contact__position--email">Email: info@lifestyle.com</i> <br>
-          <i class="fas fa-globe-asia app-contact__position--web">www.lifestyle.com</i>
-        </div>
-    </article> 
-  <div class="app-contact__biginput">
-    {{> app-input big=true}}
+<div class="app-contact">
+  <div class="app-contact__address">
+
+    <iframe class="app-contact__address-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.413785159891!2d108.21842291485818!3d16.044003488896458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219c22c5751f1%3A0x56d5f4fa807ed99f!2zNTEgQ2jDonUgVGjGsOG7o25nIFbEg24sIEjhuqNpIENow6J1LCDEkMOgIE7hurVuZw!5e0!3m2!1svi!2s!4v1531456325521" allowfullscreen></iframe>
+
+    <address class="app-contact__address-info">
+        <h2 class="app-contact__address-title">CONTACT INFORMATION</h2>
+        <p class="app-contact__address-text">In case you some aquestions popped in your’s mind, Fein case you some aquestions popped in your'el email or even visit us.</p>
+
+        <ul class="app-contact__address-details">
+          <li class="app-contact__address-detail">
+            <i class="app-contact__address-detail-icon fas fa-home"></i>
+            Address: 123 Street Name, City Name, United States.
+          </li>
+          <li class="app-contact__address-detail">
+            <i class="app-contact__address-detail-icon fas fa-envelope-square"></i>
+            Email: <a class="app-contact__address-detail-link" href="mailto:info@lifestyle.com">info@lifestyle.com</a>
+          </li>
+          <li class="app-contact__address-detail">
+            <i class="app-contact__address-detail-icon fas fa-globe-asia"></i>
+            <a class="app-contact__address-detail-link" href="http://www.lifestyle.com">www.lifestyle.com</a>
+          </li>
+        </ul>
+    </address>
   </div>
-</contact>
+
+  <form class="app-contact__form">
+    <div class="app-contact__form-fields">
+      <div class="app-contact__form-field">
+        {{> app-input tag="input" type="text" placeholder="YOUR NAME"}}
+      </div>
+      <div class="app-contact__form-field">
+        {{> app-input tag="input" type="email" placeholder="YOUR EMAIL ADDRESS"}}
+      </div>
+    </div>
+    <div class="app-contact__form-field">
+      {{> app-input tag="input" type="text" placeholder="WEBSITE ADDRESS"}}
+    </div>
+    <div class="app-contact__form-field">
+      {{> app-input tag="textarea" rows="17" placeholder="PLEASE WRITE HERE"}}
+    </div>
+    <div class="app-contact__form-actions">
+      {{> app-button big=true text="send message"}}
+    </div>
+  </form>
+</div>
