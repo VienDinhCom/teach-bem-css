@@ -54,77 +54,9 @@
     </div>
   </div>
   {{/is}}
-
-  <div class="app-post-nav">
-    <div class="app-post__button">
-      <a class="app-post__button-layout app-post--goleft"><i class="app-post__button-left fas fa-long-arrow-alt-left"></i>previous post</a>
-      <a class="app-post__button-layout app-post--goright">next post<i class="app-post__button-right fas fa-long-arrow-alt-right"></i></a>
-    </div>
-  </div>
-
-  <div class="app-post-author">
-    <div class="app-post__section">
-      <div class="app-post__section-avatar"><img src="http://lorempixel.com/242/172/" alt=""></div>
-      <div class="app-post__section-desc">
-        <div class="app-post__profile">
-          <div class="app-post__area">
-            <h1 class="app-post__area-name">michell beverly</h1>
-            <h2 class="app-post__area-all">all post</h2>
-          </div>
-          <div class="app-post__bio">
-            Patricia gives you the ability to let people actually read have your content, instead of focusing on all the other stuff that’s going on their screen.
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="app-post__social">
-    <div class="app-post__social-layout">
-      <i class="app-post__social-icon fab fa-facebook-f"></i>
-      <p class="app-post__social-text">facebook 28</p>
-    </div>
-    <div class="app-post__social-layout">
-      <i class="app-post__social-icon fab fa-twitter"></i>
-      <p class="app-post__social-text">twitter 40</p>
-      </div>
-    <div class="app-post__social-layout">
-      <i class="app-post__social-icon fab fa-tumblr"></i>
-      <p class="app-post__social-text">tumblr 11</p>
-      </div>
-    <div class="app-post__social-layout app-post__social--special">
-      <i class="app-post__social-icon fab fa-pinterest-p"></i>
-      <p class="app-post__social-text">pinterest 83</p>
-      </div>
-  </div>
-
-  <div class="app-post-carousel">
-    <div class="">
-      <div class="app-post__recommended">
-        <p class="app-post__recommended-text">recommended posts</p>
-        <i class="app-post__recommended-icon app-post__recommended--iconleft fas fa-long-arrow-alt-left"></i>
-        <i class="app-post__recommended-icon app-post__recommended--iconright fas fa-long-arrow-alt-right"></i>
-      </div>
-      <div class="app-post__pictures">
-        <div>
-          <div class="app-post__img"><img src="http://lorempixel.com/220/172/" alt=""></div>
-          <div class="app-post__txt">girl on car vintage fashion </div>
-        </div>
-        <div>
-          <div class="app-post__img"><img src="http://lorempixel.com/220/172/" alt=""></div>
-          <div class="app-post__txt">women make a tea for cup</div>
-        </div>
-        <div>
-          <div class="app-post__img"><img src="http://lorempixel.com/220/172/" alt=""></div>
-          <div class="app-post__txt">i found the model 1980’s car </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  {{#is style "main"}}
-  {{> app-post__header}}
-  {{/is}}
 </article>
 
+ {{> app-post-nav}}
+ {{> app-post-author}}
+ {{> app-post-carousel}}
 

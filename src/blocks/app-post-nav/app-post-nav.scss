@@ -1,0 +1,38 @@
+:host {
+  &__button {
+    height: 100px;
+    display: flex;
+    margin: 40px 0;
+    position: relative;
+
+    &-layout {
+      background-color: #3a3c49;
+      text-transform: uppercase;
+      padding: 40px 144px;
+      color: #fff;
+
+      &:hover {
+        background-color: #000;
+        cursor: pointer;
+      }
+    }
+
+    &-left {
+      padding-right: 10px;
+    }
+
+    &-right {
+      padding-left: 10px;
+    }
+  }
+
+  &--goleft {
+    position: absolute;
+    left: 0;
+  }
+
+  &--goright {
+    position: absolute;
+    right: 0;
+  }
+}

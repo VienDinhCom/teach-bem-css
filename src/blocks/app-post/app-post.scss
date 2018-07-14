@@ -94,6 +94,12 @@
     margin: 0 2px;
     color: #a9a9a9;
 
+    &:hover {
+      color: black;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
     &-icon {
       transform: rotateY(180deg);
       margin: 0 2px;
@@ -103,8 +109,8 @@
   &__actions {
     display: flex;
     text-transform: uppercase;
-    padding: 15px 10px;
-    border: 1px solid #f7f7f7;
+    padding: 15px 35px;
+    border-top: 1px solid #f7f7f7;
 
     &-average {
       text-align: center;
@@ -128,178 +134,5 @@
 
   &__action {
     margin: 0 5px;
-  }
-
-  &__button {
-    height: 100px;
-    display: flex;
-    margin: 40px 0;
-    position: relative;
-
-    &-layout {
-      background-color: #3a3c49;
-      text-transform: uppercase;
-      padding: 40px 134px;
-      color: #fff;
-
-      &:hover {
-        background-color: #000;
-        cursor: pointer;
-      }
-    }
-
-    &-left {
-      padding-right: 10px;
-    }
-
-    &-right {
-      padding-left: 10px;
-    }
-  }
-
-  &--goleft {
-    position: absolute;
-    left: 0;
-  }
-
-  &--goright {
-    position: absolute;
-    right: 0;
-  }
-
-  &__section {
-    display: flex;
-    position: relative;
-    border: 1px solid #f7f7f7;
-
-    &-avatar {
-      width: 242px;
-      height: 172px;
-    }
-
-    &-desc {
-      width: 100%;
-    }
-  }
-
-  &__profile {
-    padding: 0 25px;
-    height: 100%;
-  }
-
-  &__area {
-    position: relative;
-    padding: 24px 0;
-    border-bottom: 1px solid #eaeaeb;
-    height: 15%;
-    color: #212121;
-    text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-    &-name {
-      font-size: 16px;
-      position: absolute;
-      left: 0;
-      padding-bottom: 15px;
-    }
-
-    &-all {
-      font-size: 14px;
-      position: absolute;
-      right: 0;
-    }
-  }
-
-  &__bio {
-    padding-top: 25px;
-  }
-
-  &__social {
-    display: flex;
-    text-transform: uppercase;
-    padding: 20px 0;
-    position: relative;
-
-    &-layout {
-      border: 1px solid #eaeaeb;
-      height: 48px;
-      display: flex;
-      text-align: center;
-      margin-right: 15px;
-      width: 180px;
-    }
-
-    &--special {
-      margin: 0;
-      position: absolute;
-      right: 0;
-    }
-
-    &-icon {
-      padding: 18px;
-      border-right: 1px solid #eaeaeb;
-
-      &:hover {
-        background-color: #000;
-        color: white;
-        cursor: pointer;
-      }
-    }
-
-    &-text {
-      padding: 0 25px;
-      color: #a9a9a9;
-    }
-  }
-
-  &__recommended {
-    display: flex;
-    padding: 0 28px;
-
-    &-text {
-      padding-right: 490px;
-      width: 150px;
-      text-transform: uppercase;
-      padding-top: 8px;
-      font-weight: bold;
-    }
-
-    &-icon {
-      width: 30px;
-      height: 12px;
-      margin: 14px 0;
-      background-color: #464646;
-      color: white;
-      text-align: center;
-      padding: 10px 0;
-
-      &:hover {
-        background-color: #000;
-        cursor: pointer;
-      }
-    }
-
-    &--iconleft {
-      margin-right: 15px;
-    }
-  }
-
-  &__pictures {
-    display: flex;
-    padding-left: 28px;
-  }
-
-  &__img {
-    background-color: black;
-    width: 220px;
-    height: 172px;
-    margin-right: 28px;
-  }
-
-  &__txt {
-    padding: 0 8px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
-    font-size: 13px;
   }
 }
