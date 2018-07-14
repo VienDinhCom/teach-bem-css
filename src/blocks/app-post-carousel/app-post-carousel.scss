@@ -1,10 +1,14 @@
 :host {
+  background-color: white;
+  border: 1px solid #f5f5f7;
+  padding-bottom: 25px;
+
   &__recommended {
     display: flex;
     padding-left: 10px;
 
     &-text {
-      margin-right: 575px;
+      margin-right: 550px;
       width: 150px;
       text-transform: uppercase;
       padding-top: 8px;
