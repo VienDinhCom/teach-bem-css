@@ -1,5 +1,4 @@
 :host {
-  width: 1200px;
 
   &__address {
     display: flex;
@@ -14,7 +13,7 @@
   }
 
   &__address-info {
-    padding-left: 28px;
+    padding: 0 28px;
     font-family: 'Hind', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -49,6 +48,11 @@
 
   &__address-detail-icon {
     margin-right: 5px;
+  }
+
+  &__address-detail-link {
+    color: black;
+    text-decoration-line: none;
   }
 
   &__form-fields {
