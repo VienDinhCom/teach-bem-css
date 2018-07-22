@@ -1,0 +1,46 @@
+:host {
+  background-color: white;
+  padding: 0 23px;
+
+  &__recommended {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__posts {
+    margin: 21px 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  &__go {
+    margin: 21px 0;
+  }
+
+  &__icon {
+    background-color: black;
+    color: white;
+    padding: 5px 6px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__pictures {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__picture {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 14px;
+    margin: 5px 0 20px;
+  }
+}

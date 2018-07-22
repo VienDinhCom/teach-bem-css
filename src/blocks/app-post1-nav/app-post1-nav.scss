@@ -1,0 +1,26 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 47px;
+
+  &__go {
+    flex-basis: calc((100% - 20px) / 2);
+    text-align: center;
+    padding: 35px 0;
+    background-color: #393b47;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+
+    &:hover {
+      background-color: black;
+      cursor: pointer;
+      font-weight: 600;
+    }
+  }
+
+  &__icon {
+    margin: 0 20px;
+  }
+}

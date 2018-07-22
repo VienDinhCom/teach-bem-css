@@ -1,0 +1,72 @@
+:host {
+  margin-bottom: 40px;
+
+  &__section {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  &__avatar {
+    height: 150px;
+  }
+
+  &__profile {
+    padding: 16px 30px 0;
+    background-color: white;
+  }
+
+  &__area {
+    display: flex;
+    text-transform: uppercase;
+    border-bottom: 1px solid lightgrey;
+  }
+
+  &__name {
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
+  }
+
+  &__post {
+    font-size: 15px;
+    width: 100%;
+    text-align: right;
+  }
+
+  &__txt {
+    margin-top: 16px;
+  }
+
+  &__socials {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__social {
+    display: flex;
+    background: white;
+    text-align: center;
+    border-radius: 2px;
+  }
+
+  &__text {
+    margin: 0;
+    padding: 8px 16px;
+    width: 100px;
+    text-transform: uppercase;
+  }
+
+  &__icon {
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 2px;
+    border-right: 1px solid #f8f8f8;
+
+    &:hover {
+      background-color: black;
+      cursor: pointer;
+      font-weight: 600;
+      color: white;
+    }
+  }
+}
