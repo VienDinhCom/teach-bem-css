@@ -3,9 +3,10 @@
   &__form {
     display: flex;
     padding: 20px;
+    background-color: #f7f7f7;
   }
 
-  &__text {
+  &__title {
     width: 130px;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -15,18 +16,16 @@
     letter-spacing: 2px;
   }
 
-  &__input {
-    border: 0;
-    padding: 0;
-    width: 350px;
-  }
-
   &__input--name {
     margin-right: 30px;
   }
 
-  &__form-button {
-    width: 228px;
+  &__input {
+    width: 350px;
+  }
+
+  &__submit {
+    width: 230px;
     height: 37px;
     margin-top: 0;
     font-size: 12px;
