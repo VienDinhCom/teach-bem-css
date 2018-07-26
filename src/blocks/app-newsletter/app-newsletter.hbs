@@ -1,14 +1,8 @@
 <section class="app-newsletter">
   <form class="app-newsletter__form">
-    <p class="app-newsletter__text">SIGNUP TO NEWSLETTER</p>
-    <div class="app-newsletter__input app-newsletter__input--name">
-      {{> app-input tag="input" placeholder="YOUR NAME"}}
-    </div>
-    <div class="app-newsletter__input app-newsletter__input--email">
-      {{> app-input tag="input" placeholder="YOUR EMAIL ADDRESS"}}
-    </div>
-    <div class="app-newsletter__form-button">
-      {{> app-button text="subscribe now"}}
-    </div>
+    <h2 class="app-newsletter__title">SIGNUP TO NEWSLETTER</h2>
+    {{> app-input class="app-newsletter__name" tag="input" placeholder="YOUR NAME"}}
+    {{> app-input class="app-newsletter__email" tag="input" placeholder="YOUR EMAIL ADDRESS"}}
+    {{> app-button class="app-newsletter__submit" text="subscribe now"}}
   </form>
 </section>
