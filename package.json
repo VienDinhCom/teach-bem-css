@@ -38,10 +38,10 @@
     "gulp-watch": "^5.0.0",
     "handlebars-helpers": "^0.10.0",
     "handlebars-layouts": "^3.1.4",
+    "request": "^2.88.0",
     "stylelint": "^9.2.0",
     "stylelint-config-recommended-scss": "^3.2.0",
     "stylelint-config-standard": "^18.2.0",
-    "stylelint-scss": "^3.1.0",
-    "superagent": "^3.8.3"
+    "stylelint-scss": "^3.1.0"
   }
 }
