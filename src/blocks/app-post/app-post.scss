@@ -2,7 +2,8 @@
 
   &__adver {
     background-color: gray;
-    height: 360px;
+    height: 370px;
+    width: 890px;
     position: relative;
   }
 
@@ -28,13 +29,13 @@
     background-color: black;
     color: white;
     height: 25px;
-    width: 40px;
+    width: 38px;
     position: absolute;
     text-align: center;
-    padding: 4px 0;
+    padding: 4px 0 4px 2px;
     font-size: 25px;
-    bottom: -17px;
-    left: 345px;
+    bottom: -19px;
+    left: 427px;
   }
 
   &__content {
@@ -102,7 +103,7 @@
     padding: 15px 40px;
     justify-content: center;
     justify-content: space-between;
-    margin-bottom: 45px;
+    margin-bottom: 38px;
   }
 
   &__active {

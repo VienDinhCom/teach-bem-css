@@ -2,12 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 47px;
+  margin-bottom: 40px;
 
   &__go {
     flex-basis: calc((100% - 20px) / 2);
     text-align: center;
-    padding: 35px 0;
+    padding: 45px 0;
     background-color: #393b47;
     color: white;
     text-transform: uppercase;
