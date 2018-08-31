@@ -1,85 +1,73 @@
 :host {
+  margin-bottom: 40px;
+
   &__section {
     display: flex;
-    position: relative;
-    background-color: white;
-    border: 1px solid #f5f5f7;
+    margin-bottom: 20px;
+    width: 890px;
+  }
 
-    &-avatar {
-      width: 242px;
-      height: 172px;
-    }
-
-    &-desc {
-      width: 100%;
-    }
+  &__avatar {
+    height: 150px;
+    width: 180px;
   }
 
   &__profile {
-    padding: 0 25px;
-    height: 100%;
+    padding: 16px 23px 0;
+    background-color: white;
+    width: 669px;
   }
 
   &__area {
-    position: relative;
-    padding: 24px 0;
-    border-bottom: 1px solid #eaeaeb;
-    height: 15%;
-    color: #212121;
+    display: flex;
     text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-    &-name {
-      font-size: 16px;
-      position: absolute;
-      left: 0;
-      padding-bottom: 15px;
-    }
-
-    &-all {
-      font-size: 14px;
-      position: absolute;
-      right: 0;
-    }
+    border-bottom: 1px solid lightgrey;
+    justify-content: space-between;
   }
 
-  &__bio {
-    padding-top: 25px;
+  &__name {
+    font-size: 20px;
+    height: 30px;
+  }
+
+  &__post {
+    font-size: 15px;
+    text-align: right;
+  }
+
+  &__txt {
+    margin-top: 16px;
+  }
+
+  &__socials {
+    display: flex;
+    justify-content: space-between;
   }
 
   &__social {
     display: flex;
+    background: white;
+    text-align: center;
+  }
+
+  &__text {
+    margin: 0;
+    padding: 9px 28px;
+    width: 100px;
     text-transform: uppercase;
-    padding: 20px 0;
-    position: relative;
+  }
 
-    &-layout {
-      border: 1px solid #eaeaeb;
-      height: 48px;
-      display: flex;
-      text-align: center;
-      width: 180px;
-      background-color: white;
-    }
+  &__icon {
+    padding: 13px 18px 3px;
+    align-items: center;
+    border-radius: 2px;
+    border-right: 1px solid #f8f8f8;
 
-    &--special {
-      margin-left: 27px;
-    }
-
-    &-icon {
-      padding: 18px;
-      border-right: 1px solid #eaeaeb;
-
-      &:hover {
-        background-color: #000;
-        color: white;
-        cursor: pointer;
-      }
-    }
-
-    &-text {
-      padding: 0 25px;
-      color: #a9a9a9;
+    &:hover {
+      background-color: black;
+      cursor: pointer;
+      font-weight: 600;
+      color: white;
     }
   }
 }
