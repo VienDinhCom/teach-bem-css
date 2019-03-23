@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 "use strict";
 
 var _fs = _interopRequireDefault(require("fs"));
