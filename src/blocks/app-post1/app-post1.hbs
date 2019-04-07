@@ -4,6 +4,7 @@
     <img class="app-post1__cover" src="http://lorempixel.com/1600/900/" alt="">
     <i class="app-post1__type far fa-image"></i>
   </div>
+  {{#is name "content"}}
   <div class="app-post1__content">
     <header class="app-post1__content-header">
       <a class="app-post1__content-travl" href="">{{category}}</a>
@@ -21,6 +22,7 @@
       <p class="app-post1__content-text">We moved on. There were shops dealing in all sorts of goods. There were the cloth merchants, chemists, jewellers, confectioners1, tobaccoonists, leather goods merchants, wine merchants, gramophone dealers, radio shops and shops dealing in general merchandise. The show cases exhibited the goods in style to great idea gave a so much tempt us.</p>
     </section>
   </div>
+  {{/is}}
   {{#is style "article"}}
   <div class="app-post1__footer">
     <div class="app-post1__tags">
@@ -56,6 +58,10 @@
   {{/is}}
 </article>
 
+
+{{#is get="body"}}
+  {{> app-post1__content}}
+{{/is}}
 {{> app-post1-nav}}
 {{> app-post1-author}}
 {{> app-post1-carousel}}
