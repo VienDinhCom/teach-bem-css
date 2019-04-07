@@ -57,6 +57,10 @@
 
     &-texts {
       text-align: justify;
+
+      &--center {
+        text-align: center;
+      }
     }
 
     &--special {

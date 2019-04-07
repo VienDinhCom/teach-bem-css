@@ -4,7 +4,6 @@
     <img class="app-post1__cover" src="http://lorempixel.com/1600/900/" alt="">
     <i class="app-post1__type far fa-image"></i>
   </div>
-  {{#is name "content"}}
   <div class="app-post1__content">
     <header class="app-post1__content-header">
       <a class="app-post1__content-travl" href="">{{category}}</a>
@@ -22,7 +21,6 @@
       <p class="app-post1__content-text">We moved on. There were shops dealing in all sorts of goods. There were the cloth merchants, chemists, jewellers, confectioners1, tobaccoonists, leather goods merchants, wine merchants, gramophone dealers, radio shops and shops dealing in general merchandise. The show cases exhibited the goods in style to great idea gave a so much tempt us.</p>
     </section>
   </div>
-  {{/is}}
   {{#is style "article"}}
   <div class="app-post1__footer">
     <div class="app-post1__tags">
@@ -59,8 +57,34 @@
 </article>
 
 
-{{#is get="body"}}
-  {{> app-post1__content}}
+{{#is name "content"}}
+  <div class="app-post1__content">
+    <header class="app-post1__content-header">
+      <a class="app-post1__content-travl" href="">{{category}}</a>
+      <h1 class="app-post1__content-title">{{title}}</h1>
+      <div class="app-post1__content-meta">
+        <span class="app-post1__content-txt"><i class="app-post1__content-icon fas fa-user-alt"></i> dice acalister</span>
+        <span class="app-post1__content-txt"><i class="app-post1__content-icon far fa-calendar-alt"></i>january 16, 2016</span>
+      </div>
+    </header>
+    <section class="app-post1__content-texts">
+      <p class="app-post1__content-texts app-post1__content-texts--center">ent in search of the untamed, the estranged, the wild few tending the flame. I found myself in a world bigger agrander i athas is a all imagination, color and life vibrating in everything. Just what sort of wonder could this new world hold?' All shots by Ben Sturgulewski, from features, commercials, and personal projects. Filmed on location in Alaska, Argentina, Bolivia, British Columbia, Dubai, Japan, Oregon, the Maldives, and Washington State.
+    </section>
+  </div>
+  <div class="app-post1__footer">
+    <div class="app-post1__interactions">
+      <div>
+        <span class="app-post1__active"><i class="app-post1__icon far fa-comments"></i>06 comment</span>
+        <span class="app-post1__active"><i class="app-post1__icon far fa-heart"></i>like 25</span>
+      </div>
+      <div class="app-post1__socials">
+        <i class="app-post1__social fas fa-basketball-ball"></i>
+        <i class="app-post1__social fab fa-facebook-f"></i>
+        <i class="app-post1__social fab fa-twitter"></i>
+        <i class="app-post1__social fab fa-pinterest"></i>
+      </div>
+    </div>
+  </div>
 {{/is}}
 {{> app-post1-nav}}
 {{> app-post1-author}}
