@@ -84,13 +84,7 @@ _gulp.default.task('templates', function () {
   })).pipe($.htmlPrettify({
     indent_char: ' ',
     indent_size: 2
-  })).pipe(_gulp.default.dest('dist')).pipe($.htmllint({}, function (filepath, issues) {
-    issues.forEach(function (issue) {
-      console.log('\n' + filepath.underline); // eslint-disable-line
-
-      console.log(_colors.default.grey(' ' + issue.line + ':' + issue.column) + '  ✖  '.red + issue.msg + _colors.default.grey('\t' + issue.code + '\n')); // eslint-disable-line
-    });
-  })).on('end', function () {
+  })).pipe(_gulp.default.dest('dist')).on('end', function () {
     return reload();
   });
 });
