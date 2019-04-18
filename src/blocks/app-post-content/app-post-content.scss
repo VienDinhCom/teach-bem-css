@@ -1,0 +1,36 @@
+:host {
+
+    background-color: white;
+    padding: 50px 30px 10px;
+
+    &__header {
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    &__icon {
+      margin-right: 8px;
+      margin-left: 10px;
+    }
+
+    &__txt {
+      margin-right: 10px;
+    }
+
+    &__texts {
+      text-align: justify;
+
+      &--center {
+        text-align: center;
+      }
+    }
+
+    &--special {
+      padding: 0 145px;
+    }
+
+    &__travl {
+      color: black;
+      text-decoration-line: none;
+    }
+}
