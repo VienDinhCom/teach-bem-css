@@ -21,39 +21,7 @@
       <p class="app-post__content-text">We moved on. There were shops dealing in all sorts of goods. There were the cloth merchants, chemists, jewellers, confectioners1, tobaccoonists, leather goods merchants, wine merchants, gramophone dealers, radio shops and shops dealing in general merchandise. The show cases exhibited the goods in style to great idea gave a so much tempt us.</p>
     </section>
   </div>
-  {{#is style "article"}}
-  <div class="app-post__footer">
-    <div class="app-post__tags">
-      <i class="app-post__tag-icon fas fa-tags"></i>
-      <a class="app-post__tag" href="">beautiful,</a>
-      <a class="app-post__tag" href="">nature,</a>
-      <a class="app-post__tag" href="">please,</a>
-      <a class="app-post__tag" href="">weather</a>
-    </div>
-    <div class="app-post__interactions">
-      <div>
-        <span class="app-post__active"><i class="app-post__icon far fa-comments"></i>06 comment</span>
-        <span class="app-post__active"><i class="app-post__icon far fa-heart"></i>like 25</span>
-      </div>
-      <div class="app-post__average">
-        average : 5%
-        <span class="app-post__rating">
-          <i class="app-post__rating-star fas fa-star"></i>
-          <i class="app-post__rating-star fas fa-star"></i>
-          <i class="app-post__rating-star fas fa-star"></i>
-          <i class="app-post__rating-star fas fa-star"></i>
-          <i class="app-post__rating-star fas fa-star"></i>
-        </span>
-      </div>
-      <div class="app-post__socials">
-        <i class="app-post__social fas fa-basketball-ball"></i>
-        <i class="app-post__social fab fa-facebook-f"></i>
-        <i class="app-post__social fab fa-twitter"></i>
-        <i class="app-post__social fab fa-pinterest"></i>
-      </div>
-    </div>
-  </div>
-  {{/is}}
+  {{> app-post-footer name="default"}}
 </article>
 
 
@@ -77,3 +45,4 @@
 {{> app-post-author}}
 {{> app-post-carousel}}
 {{> app-post-video}}
+{{> app-post-music}}

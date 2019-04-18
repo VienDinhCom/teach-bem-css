@@ -27,6 +27,10 @@
       &--center {
         text-align: center;
       }
+
+      &--mod {
+        padding-bottom: 25px;
+      }
     }
 
     &--special {
@@ -36,5 +40,17 @@
     &__travl {
       color: black;
       text-decoration-line: none;
+    }
+
+    &__button {
+      text-align: center;      
+      padding-bottom: 25px;
+
+
+      &-style {   
+      padding: 7px 15px;
+      border-right: 1px solid #3c3c3c;
+      border-left: 1px solid #3c3c3c;
+      }
     }
 }
