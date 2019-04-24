@@ -1,0 +1,17 @@
+:host {
+
+  &__background {
+    width: 812px;
+    height: 250px;
+    background-color: #131d1c;
+    text-align: justify;
+  }
+
+  &__text {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    top: 20px;
+    background-color: black;
+  }
+}

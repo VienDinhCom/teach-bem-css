@@ -1,56 +1,54 @@
 :host {
+background-color: white;
+padding: 50px 30px 10px;
 
-    background-color: white;
-    padding: 50px 30px 10px;
+  &__header {
+    text-align: center;
+    text-transform: uppercase;
+  }
 
-    &__header {
+  &__title {
+    font-size: 25px;
+  }
+
+  &__icon {
+    margin-right: 8px;
+    margin-left: 10px;
+  }
+
+  &__txt {
+    margin-right: 10px;
+  }
+
+  &__texts {
+    text-align: justify;
+
+    &--center {
       text-align: center;
-      text-transform: uppercase;
     }
 
-    &__title {
-      font-size: 25px;
-    }
-
-    &__icon {
-      margin-right: 8px;
-      margin-left: 10px;
-    }
-
-    &__txt {
-      margin-right: 10px;
-    }
-
-    &__texts {
-      text-align: justify;
-
-      &--center {
-        text-align: center;
-      }
-
-      &--mod {
-        padding-bottom: 25px;
-      }
-    }
-
-    &--special {
-      padding: 0 145px;
-    }
-
-    &__travl {
-      color: black;
-      text-decoration-line: none;
-    }
-
-    &__button {
-      text-align: center;      
+    &--mod {
       padding-bottom: 25px;
+    }
+  }
 
+  &--special {
+    padding: 0 145px;
+  }
 
-      &-style {   
+  &__travl {
+    color: black;
+    text-decoration-line: none;
+  }
+
+  &__button {
+    text-align: center;      
+    padding-bottom: 25px;
+
+    &-style {   
       padding: 7px 15px;
       border-right: 1px solid #3c3c3c;
       border-left: 1px solid #3c3c3c;
-      }
     }
+  }
 }

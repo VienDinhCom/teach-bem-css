@@ -1,48 +1,81 @@
-<artical class="app-post">
-  <div class="app-post__adver">
-    <i class="app-post__pinterest fab fa-pinterest-p"></i>
-    <img class="app-post__cover" src="http://lorempixel.com/1600/900/" alt="">
+{{#is style "detail"}}
+  <artical class="app-post">
+    <div class="app-post__adver">
+      <i class="app-post__pinterest fab fa-pinterest-p"></i>
+      <img class="app-post__cover" src="http://lorempixel.com/1600/900/" alt="">
     <i class="app-post__type far fa-image"></i>
-  </div>
-  <div class="app-post__content">
-    <header class="app-post__content-header">
-      <a class="app-post__content-travl" href="">{{category}}</a>
-      <h1 class="app-post__content-title">{{title}}</h1>
-      <div class="app-post__content-meta">
-        <span class="app-post__content-txt"><i class="app-post__content-icon fas fa-user-alt"></i> dice acalister</span>
-        <span class="app-post__content-txt"><i class="app-post__content-icon far fa-calendar-alt"></i>january 16, 2016</span>
-      </div>
-    </header>
-    <section class="app-post__content-texts">
-      <p class="app-post__content-text">This is Photoshop's version now we’s of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi eiilit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsans ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti  have a great is the best sociosqu ad litora torquent per conubia nostra.</p>
-      <p class="app-post__content--special">Exercitation photo booths stumptowns totes bag Banksy, elit small batch bit kale chips proident chillwave have a great work deep havess dreem laborum</p>
-      <p class="app-post__content-text">Proins gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagitgitis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec terzllus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti Duis aute irure dolor in reprehenderit in voluptate velit. Qui officia deserunt mollit anim id est labosasirum. Corrupti quosalores et quas molestias excepturi sint occaecati. Facere possimus, omnis voluptas assumenda have esOmnis dolor repellendus. Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis.Et harum quidem the odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.sociosqu ad litora torquent per conubia nostra.</p>
-      <p class="app-post__content-text">What a crowded bazaar! There were large crowds of people at the shops. There were motor cars, rickshaws, scooters and taxies. The has buses, too, were plying up and own the bazaar. We kept to the foot-path. Soon we were at the Fountain. There we is th saw the Gurdwara Sis Ganj with its golden dome. A large number of devotees were going in or coming out.</p>
-      <p class="app-post__content-text">We moved on. There were shops dealing in all sorts of goods. There were the cloth merchants, chemists, jewellers, confectioners1, tobaccoonists, leather goods merchants, wine merchants, gramophone dealers, radio shops and shops dealing in general merchandise. The show cases exhibited the goods in style to great idea gave a so much tempt us.</p>
-    </section>
-  </div>
-  {{> app-post-footer name="default"}}
-</article>
-
-
-{{#is name "content"}}
-  <div class="app-post__footer">
-    <div class="app-post__interactions">
-      <div>
-        <span class="app-post__active"><i class="app-post__icon far fa-comments"></i>06 comment</span>
-        <span class="app-post__active"><i class="app-post__icon far fa-heart"></i>like 25</span>
-      </div>
-      <div class="app-post__socials">
-        <i class="app-post__social fas fa-basketball-ball"></i>
-        <i class="app-post__social fab fa-facebook-f"></i>
-        <i class="app-post__social fab fa-twitter"></i>
-        <i class="app-post__social fab fa-pinterest"></i>
-      </div>
     </div>
-  </div>
+    <div class="app-post__content">
+      <header class="app-post__content-header">
+        <a class="app-post__content-travl" href="">{{category}}</a>
+        <h1 class="app-post__content-title">{{title}}</h1>
+        <div class="app-post__content-meta">
+          <span class="app-post__content-txt"><i class="app-post__content-icon fas fa-user-alt"></i> dice acalister</span>
+          <span class="app-post__content-txt"><i class="app-post__content-icon far fa-calendar-alt"></i>january 16, 2016</span>
+        </div>
+      </header>
+      <section class="app-post__content-texts">
+        <p class="app-post__content-text">This is Photoshop's version now we’s of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi eiilit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsans ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti  have a great is the best sociosqu ad litora torquent per conubia nostra.</p>
+        <p class="app-post__content--special">Exercitation photo booths stumptowns totes bag Banksy, elit small batch bit kale chips proident chillwave have a great work deep havess dreem laborum</p>
+        <p class="app-post__content-text">Proins gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagitgitis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec terzllus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti Duis aute irure dolor in reprehenderit in voluptate velit. Qui officia deserunt mollit anim id est labosasirum. Corrupti quosalores et quas molestias excepturi sint occaecati. Facere possimus, omnis voluptas assumenda have esOmnis dolor repellendus. Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis.Et harum quidem the odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.sociosqu ad litora torquent per conubia nostra.</p>
+        <p class="app-post__content-text">What a crowded bazaar! There were large crowds of people at the shops. There were motor cars, rickshaws, scooters and taxies. The has buses, too, were plying up and own the bazaar. We kept to the foot-path. Soon we were at the Fountain. There we is th saw the Gurdwara Sis Ganj with its golden dome. A large number of devotees were going in or coming out.</p>
+        <p class="app-post__content-text">We moved on. There were shops dealing in all sorts of goods. There were the cloth merchants, chemists, jewellers, confectioners1, tobaccoonists, leather goods merchants, wine merchants, gramophone dealers, radio shops and shops dealing in general merchandise. The show cases exhibited the goods in style to great idea gave a so much tempt us.</p>
+      </section>
+    </div>
+    {{> app-post-footer name="default"}}
+  </article>
+
+  {{> app-post-nav}}
+  {{> app-post-author}}
+  {{> app-post-carousel}}
 {{/is}}
-{{> app-post-nav}}
-{{> app-post-author}}
-{{> app-post-carousel}}
-{{> app-post-video}}
-{{> app-post-music}}
+
+{{#is style "about"}}
+  <artical class="app-post">
+    <div class="app-post__adver">
+      <i class="app-post__pinterest fab fa-pinterest-p"></i>
+      <img class="app-post__cover" src="http://lorempixel.com/1600/900/" alt="">
+    <i class="app-post__type far fa-image"></i>
+    </div>
+    <div class="app-post__content">
+      <header class="app-post__content-header">
+        <a class="app-post__content-travl" href="">{{category}}</a>
+        <h1 class="app-post__content-title">{{title}}</h1>
+        <div class="app-post__content-meta">
+          <span class="app-post__content-txt"><i class="app-post__content-icon fas fa-user-alt"></i> dice acalister</span>
+          <span class="app-post__content-txt"><i class="app-post__content-icon far fa-calendar-alt"></i>january 16, 2016</span>
+        </div>
+      </header>
+      <section class="app-post__content-texts">
+        <p class="app-post__content-text">This is Photoshop's version now we’s of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi eiilit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsans ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti  have a great is the best sociosqu ad litora torquent per conubia nostra.</p>
+        <p class="app-post__content--special">Exercitation photo booths stumptowns totes bag Banksy, elit small batch bit kale chips proident chillwave have a great work deep havess dreem laborum</p>
+        <p class="app-post__content-text">Proins gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagitgitis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec terzllus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti Duis aute irure dolor in reprehenderit in voluptate velit. Qui officia deserunt mollit anim id est labosasirum. Corrupti quosalores et quas molestias excepturi sint occaecati. Facere possimus, omnis voluptas assumenda have esOmnis dolor repellendus. Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis.Et harum quidem the odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.sociosqu ad litora torquent per conubia nostra.</p>
+        <p class="app-post__content-text">What a crowded bazaar! There were large crowds of people at the shops. There were motor cars, rickshaws, scooters and taxies. The has buses, too, were plying up and own the bazaar. We kept to the foot-path. Soon we were at the Fountain. There we is th saw the Gurdwara Sis Ganj with its golden dome. A large number of devotees were going in or coming out.</p>
+        <p class="app-post__content-text">We moved on. There were shops dealing in all sorts of goods. There were the cloth merchants, chemists, jewellers, confectioners1, tobaccoonists, leather goods merchants, wine merchants, gramophone dealers, radio shops and shops dealing in general merchandise. The show cases exhibited the goods in style to great idea gave a so much tempt us.</p>
+      </section>
+    </div>
+  </article>
+{{/is}}
+
+
+
+
+{{#is style "news"}}
+  {{> app-post-image}}
+{{/is}}
+
+{{#is style "photo"}}
+  {{> app-post-photo}}
+{{/is}}
+
+{{#is style "quote"}}
+  {{> app-post-quote}}
+{{/is}}
+
+{{#is style "video"}}
+  {{> app-post-video}}
+{{/is}}
+
+{{#is style "audio"}}
+  {{> app-post-music}}
+{{/is}}

@@ -1,0 +1,38 @@
+:host {
+  &__adver {
+    background-color: #fff;
+    height: 510px;
+    position: relative;
+  }
+
+  &__pinterest {
+    background-color: red;
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 15px 0 0 0;
+  }
+
+  &__cover {
+    height: 510px;
+    width: 100%;
+  }
+
+  &__type {
+    background-color: black;
+    color: white;
+    height: 25px;
+    width: 40px;
+    position: absolute;
+    text-align: center;
+    padding: 4px 0;
+    font-size: 25px;
+    bottom: -17px;
+    left: 386px;
+  }
+}
