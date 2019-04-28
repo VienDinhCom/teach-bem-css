@@ -10,7 +10,7 @@
     :host {
 
       &__title {
-        margin: -3px 0 27px 0;
+        margin: -3px 0 0;
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         text-transform: uppercase;
@@ -18,6 +18,41 @@
         font-size: 20px;
         padding-bottom: 17px;
         border-bottom: 1px solid #f7f7f7;
+      }
+
+      &__image {
+        width: 298px;
+        height: 600px;
+        background-color: #f9f9fb;
+      }
+
+      &__latestpost {
+        display: flex;
+      }
+
+      &__type {
+        text-transform: uppercase;
+        display: flex;
+        font-size: 17px;
+        border-bottom: 1px solid #f7f7f7;
+        font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+        &--number {
+          position: relative; position: absolute;
+          right: 190px;
+        }
+      }
+
+      &__smallphoto {
+        width: 298px;
+        height: 250px;
+        background-color: #f9f9fb;
+      }
+
+      &__square {
+        width: 100px;
+        height: 80px;
+        background-color: #f9f9fb;
       }
     }
   }
