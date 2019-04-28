@@ -16,12 +16,12 @@
     letter-spacing: 2px;
   }
 
-  &__input--name {
-    margin-right: 30px;
-  }
-
   &__input {
     width: 350px;
+
+    &--name {
+      margin-right: 30px;
+    }
   }
 
   &__submit {

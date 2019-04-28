@@ -1,0 +1,24 @@
+:host {
+
+  &__form {
+    display: flex;
+    color: #f9f9fb;
+    width: 250px;
+  }
+
+  &__input {
+    width: 250px;
+    background-color: #f9f9fb;
+    box-shadow: none;
+  }
+
+  &__find {
+    background-color: black;
+    width: 48.92px;
+    height: 44.41px;
+  }
+
+  &__icon {
+    padding: 15px 16px;
+  }
+}

@@ -2,10 +2,24 @@
 
   &__address {
     padding-top: 20px;
+    position: relative;
 
     &-api {
       height: 415px;
       width: 812px;
     }
+  }
+
+  &__type {
+    background-color: black;
+    color: white;
+    height: 25px;
+    width: 40px;
+    position: absolute;
+    text-align: center;
+    padding: 4px 0;
+    font-size: 25px;
+    top: 419px;
+    left: 386px;
   }
 }

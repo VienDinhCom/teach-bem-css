@@ -1,17 +1,52 @@
 :host {
+@import url(//db.onlinewebfonts.com/c/431cde822eeabd647b9169ec85ba96aa?family=Kartika);
+position: relative;
 
-  &__background {
-    width: 812px;
-    height: 250px;
+  &__icon {
+    background-color: #fff;
+    color: black;
+    height: 25px;
+    width: 40px;
+    position: absolute;
+    text-align: center;
+    padding: 4px 0;
+    left: 386px; 
+    top: -16px;
+    font-size: 46px; 
+    line-height: 46px;
+    font-family: katrika;
+  }
+
+  &__texts {
+    width: 752px;
+    height: 150px;
     background-color: #131d1c;
     text-align: justify;
+    padding: 50px 30px 10px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    font-family: 'Hind', sans-serif;
+    position: relative;
   }
 
   &__text {
     color: white;
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 0;
     text-align: center;
-    text-transform: uppercase;
-    top: 20px;
-    background-color: black;
+
+    &--special {
+      text-decoration: underline;
+    }
+  }
+
+  &__author {
+    color: #999;
+    text-align: center;
+    position: relative; 
+    left: 340px; 
+    top: 24px;
+    font-size: 12px;
   }
 }
