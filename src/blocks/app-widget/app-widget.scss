@@ -26,8 +26,36 @@
         background-color: #f9f9fb;
       }
 
+      &__square {
+        width: 100px;
+        height: 80px;
+        background-color: #f9f9fb;
+        margin-right: 10px;
+      }
+
       &__latestpost {
         display: flex;
+        border-bottom: 1px solid #f7f7f7;
+
+        &-type {
+          font-size: 16px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: bold;
+          text-transform: uppercase;
+          margin-bottom: 0;
+        }
+      }
+
+      &__interact {
+        display: flex;
+        color: #999;
+        font-size: 15px;
+        font-family: 'Hind', sans-serif;
+
+        &-like {
+          position: relative; 
+          left: 27px;
+        }
       }
 
       &__type {
@@ -38,7 +66,7 @@
         font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
         &--number {
-          position: relative; position: absolute;
+          position: absolute;
           right: 190px;
         }
       }
@@ -49,10 +77,109 @@
         background-color: #f9f9fb;
       }
 
-      &__square {
-        width: 100px;
-        height: 80px;
-        background-color: #f9f9fb;
+      &__interactions {
+        display: flex;
+        font-size: 19px;
+        justify-content: center;
+        justify-content: space-between;
+        
+        &-social {
+          margin-right: 40px;
+
+          &--goright {
+            margin-left: 10px;
+          }
+
+          &--nomargin {
+            margin-right: 0;
+          }
+      
+          &:hover {
+            color: aqua;
+            cursor: pointer;
+          }
+        }
+      }
+
+      &__pics {
+        width: 298px;
+        height: 230px;
+        background-color: gray;
+        position: relative;
+
+        &-nav {
+          width: 50px;
+          height: 25px;
+          background-color: #464646;
+          position: absolute;
+          top: 92px;
+          padding: 10px 0;
+        }
+
+        &-icon {
+          color: white;
+          margin: 0 20px;
+        }
+      }
+
+      &__facebook {
+
+        &-header {
+          width: 298px;
+          height: 26px;
+          background-color: #3c5a98;
+          border-bottom: 1px solid #5f78ab;
+
+          &--type {
+            color: #fbfcfd;
+            text-transform: uppercase;
+            position: relative; 
+            left: 11px; 
+            top: 5px;
+          }
+        }
+
+        &-content {
+          background-color: gray;
+          border-top: 1px solid #ebeef4;
+          width: 298px;
+          height: 221px;
+
+          &__head {
+            display: flex;
+            &-logo {
+              width: 45px;
+              height: 45px;
+              background-color: red;
+              position: relative; 
+              left: 22px; 
+              top: 1px;
+            }
+            &-text {
+              position: relative; 
+              left: 29px;
+            }
+          }
+
+          &__interact {
+            background-color: #ececef;
+            width: 40px;
+            height: 20px;
+            position: relative; 
+            left: -12px; 
+            top: 39px;
+            display: flex;
+            font-size: 12px;
+
+            &__icon {
+
+            }
+
+            &__like {
+              position: relative; left: 5px; top: -12px; 
+            }
+          }
+        }
       }
     }
   }
