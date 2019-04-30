@@ -59,7 +59,6 @@
         </div>    
       </div>
     </div>
-
     <div class="app-widget__latestpost">
       <div class="app-widget__latestpost">
         <p class="app-widget__square"></p>
@@ -72,7 +71,6 @@
         </div>    
       </div>
     </div>
-
     <div class="app-widget__latestpost">
       <div class="app-widget__latestpost">
         <p class="app-widget__square"></p>
@@ -85,8 +83,6 @@
         </div>    
       </div>
     </div>
-
-
     <div class="app-widget__latestpost">
       <div class="app-widget__latestpost">
         <p class="app-widget__square"></p>
@@ -100,7 +96,6 @@
       </div>
     </div>
   {{/is}}
-
   {{#is name "socials"}}
     <div class="app-widget__interactions">
       <i class="app-widget__interactions-social app-widget__interactions-social--goright fab fa-twitter"></i>
@@ -110,7 +105,6 @@
       <i class="app-widget__interactions-social app-widget__interactions-social--nomargin fab fa-linkedin-in"></i>
     </div>
   {{/is}}
-
   {{#is name "new pics"}}
     <div class="app-widget__pics">
       <img src="http://lorempixel.com/298/230/" alt="">
@@ -118,7 +112,6 @@
       <span class="app-widget__pics-nav" style="left: 248px;"><i class="app-widget__pics-icon fas fa-arrow-right"></i></span>
     </div>
   {{/is}}
-
   {{#is name "facebook"}}
     <div class="app-widget__facebook">
       <div class="app-widget__facebook-header">
@@ -164,28 +157,53 @@
   {{/is}}
 
   {{#is name "about"}}
-    <h3 class="app-widget__title">Latest Comments</h3>
+    <h3 class="app-widget__title">about blogs</h3>
     <div class="app-widget__content">
       <p>Lorem ipsum dolor sit amet, conser adipisicing  esse cillum dolore nulla pariatur.</p>
+      <img class="app-widget__image" src="assets/images/widget-about.jpg" alt="">
     </div>
   {{/is}}
   {{#is name "tweets"}}
-    <h3 class="app-widget__title">Latest Comments</h3>
-    <div class="app-widget__content">
-      <p>Lorem ipsum dolor sit amet, conser adipisicing  esse cillum dolore nulla pariatur.</p>
+    <h3 class="app-widget__title">latest tweets</h3>
+    <div class="app-widget__tweets">
+      <div class="app-widget__flex">
+        <i class="app-widget__icon fab fa-twitter"></i>
+        <p class="app-widget__text">@Twitter@magicalrebekah</p>
+      </div>
+      <p class="app-widget__tweet">Developer Advocate @heyval isaiyou knows the very well is about things .</p>
+    </div>
+    <div class="app-widget__tweets">
+      <div class="app-widget__flex">
+        <i class="app-widget__icon fab fa-twitter"></i>
+        <p class="app-widget__text">@Twitter@magicalrebekah</p>
+      </div>
+      <p class="app-widget__tweet">Developer Advocate hav a great work this knows the very well is</p>
     </div>
   {{/is}}
   {{#is name "photos"}}
-    <h3 class="app-widget__title">Latest Comments</h3>
-    <div class="app-widget__content">
-      <p>Lorem ipsum dolor sit amet, conser adipisicing  esse cillum dolore nulla pariatur.</p>
+    <h3 class="app-widget__title">Follow me instagram</h3>
+    <div class="app-widget__square">
+      <div class="app-widget__square-line"></div>
+      <div class="app-widget__square-line"></div>
+      <div class="app-widget__square-line app-widget__square-line--nomarginright"></div> 
+    </div>
+    <div class="app-widget__square">
+      <div class="app-widget__square-line app-widget__square-line--nomarginbottom"></div>
+      <div class="app-widget__square-line app-widget__square-line--nomarginbottom"></div>
+      <div class="app-widget__square-line app-widget__square-line--nomarginright"></div> 
     </div>
   {{/is}}
   {{#is name "comments"}}
-    <h3 class="app-widget__title">Latest Comments</h3>
-    <div class="app-widget__content">
-      <p>Lorem ipsum dolor sit amet, conser adipisicing  esse cillum dolore nulla pariatur.</p>
+    <h3 class="app-widget__title">latest comment</h3>
+    <div class="app-widget__comments">
+      <p>From Alex :</p>
+      <p style="margin-bottom: 18px;">Developer Advocate @heyval isaiyou know the very well is talking about things</p>
     </div>
+    <div class="app-widget__comments" style="border-bottom:0;">
+      <p>From Alex :</p>
+      <p>Developer Advocate @heyval isaiyou know the very well is talking about things</p>
+    </div>
+    
   {{/is}}
 </aside>
 <!-- /.app-widget -->

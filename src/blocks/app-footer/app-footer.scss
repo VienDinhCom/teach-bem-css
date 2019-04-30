@@ -9,6 +9,10 @@
 
   &__footer {
     background: #17191c;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 3px;
   }
 
   &__bla {
@@ -17,5 +21,9 @@
 
   &__column {
     line-height: 4px;
+  }
+
+  &__copyright {
+    font-family: 'Hind', sans-serif;
   }
 }
