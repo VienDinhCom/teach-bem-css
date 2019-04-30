@@ -42,7 +42,24 @@
           {{/block}}
         {{/content}}
         {{#content "app-main-sidebar"}}
-          {{> app-sidebar style="vertical"}}
+          {{> app-sidebar style="about"}}
+        {{/content}}
+      {{/extend}}
+    </div>
+    <!-- /.app-container -->
+    {{> app-footer}}
+  {{/is}}
+
+  {{#is style "contact"}}
+    <div class="app-container">
+      {{> app-navigation}}
+      {{#extend "app-main"}}
+        {{#content "app-main-content"}}
+          {{#block "app-layout-children"}}
+          {{/block}}
+        {{/content}}
+        {{#content "app-main-sidebar"}}
+          {{> app-sidebar style="contact"}}
         {{/content}}
       {{/extend}}
     </div>

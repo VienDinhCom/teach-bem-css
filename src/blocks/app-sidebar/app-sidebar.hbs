@@ -12,6 +12,25 @@
   <!-- /.app-sidebar -->
 {{/is}}
 
+{{#is style "about"}}
+  <div class="app-sidebar app-sidebar--vertical">
+    {{> app-widget style="light" name="search"}}
+    {{> app-widget style="light" name="Catagories"}}
+    {{> app-widget style="light" name="smallphoto"}}
+    {{> app-widget style="light" name="Latest Post"}}
+  </div>
+  <!-- /.app-sidebar-about-->
+{{/is}}
+
+{{#is style "contact"}}
+  <div class="app-sidebar app-sidebar--vertical">
+    {{> app-widget style="light" name="search"}}
+    {{> app-widget style="light" name="smallphoto"}}
+    {{> app-widget style="light" name="Latest Post"}}
+  </div>
+  <!-- /.app-sidebar-about-->
+{{/is}}
+
 {{#is style "horizontal"}}
   <div class="app-sidebar app-sidebar--horizontal">
     {{> app-widget style="dark" name="about"}}

@@ -1,11 +1,39 @@
-<main class="app-main">
-  <div class="app-main__content">
-    {{#block "app-main-content"}}
-    {{/block}}
-  </div>
-  <div class="app-main__sidebar">
-    {{#block "app-main-sidebar"}}
-    {{/block}}
-  </div>
-</main>
+{{#is style "default"}}
+  <main class="app-main">
+    <div class="app-main__content">
+      {{#block "app-main-content"}}
+      {{/block}}
+    </div>
+    <div class="app-main__sidebar">
+      {{#block "app-main-sidebar"}}
+      {{/block}}
+    </div>
+  </main>
+{{/is}}
 <!-- /.app-main -->
+
+{{#is style "contact"}}
+  <main class="app-main">
+    <div class="app-main__content">
+      {{#block "app-main-content"}}
+      {{/block}}
+    </div>
+    <div class="app-main__sidebar" style="height: 950px;">
+      {{#block "app-main-sidebar"}}
+      {{/block}}
+    </div>
+  </main>
+{{/is}}
+
+{{#is style "about"}}
+  <main class="app-main">
+    <div class="app-main__content">
+      {{#block "app-main-content"}}
+      {{/block}}
+    </div>
+    <div class="app-main__sidebar" style="height: 1350px;">
+      {{#block "app-main-sidebar"}}
+      {{/block}}
+    </div>
+  </main>
+{{/is}}
