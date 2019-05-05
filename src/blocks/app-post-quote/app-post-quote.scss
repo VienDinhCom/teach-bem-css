@@ -1,20 +1,20 @@
 :host {
-@import url(//db.onlinewebfonts.com/c/431cde822eeabd647b9169ec85ba96aa?family=Kartika);
-position: relative;
+  position: relative;
+  @import url(//db.onlinewebfonts.com/c/431cde822eeabd647b9169ec85ba96aa?family=Kartika);
 
   &__icon {
     background-color: #fff;
     color: black;
+    top: -16px;
+    left: 386px;
     height: 25px;
     width: 40px;
+    font-size: 46px;
     position: absolute;
     text-align: center;
     padding: 4px 0;
-    left: 386px; 
-    top: -16px;
-    font-size: 46px; 
     line-height: 46px;
-    font-family: katrika;
+    font-family: katrika, sans-serif;
   }
 
   &__texts {
@@ -42,11 +42,11 @@ position: relative;
   }
 
   &__author {
-    color: #999;
+    position: relative;
     text-align: center;
-    position: relative; 
-    left: 340px; 
+    color: #999;
     top: 24px;
+    left: 340px;
     font-size: 12px;
   }
 }

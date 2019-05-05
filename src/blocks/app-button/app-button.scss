@@ -1,11 +1,11 @@
 :host {
   background: black;
   color: white;
-  text-transform: uppercase;
   border: 0;
-  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   padding: 13px 60px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 
   &--big {
     padding: 15px 30px;

@@ -53,8 +53,8 @@
         font-family: 'Hind', sans-serif;
 
         &-like {
-          position: relative; 
           left: 27px;
+          position: relative;
         }
       }
 
@@ -80,9 +80,9 @@
       &__interactions {
         display: flex;
         font-size: 19px;
-        justify-content: center;
         justify-content: space-between;
-        
+        justify-content: center;
+
         &-social {
           margin-right: 40px;
 
@@ -93,7 +93,7 @@
           &--nomargin {
             margin-right: 0;
           }
-      
+
           &:hover {
             color: aqua;
             cursor: pointer;
@@ -132,12 +132,12 @@
           border-bottom: 1px solid #5f78ab;
 
           &--type {
+            position: relative;
             color: #fbfcfd;
-            text-transform: uppercase;
-            position: relative; 
-            left: 11px; 
-            top: 5px;
             margin-top: 0;
+            top: 5px;
+            left: 11px;
+            text-transform: uppercase;
           }
         }
 
@@ -153,37 +153,34 @@
             margin: 0 22px;
 
             &-logo {
+              position: relative;
+              top: 1px;
+              left: 1px;
               width: 45px;
               height: 45px;
               background-color: red;
-              position: relative; 
-              left: 1px; 
-              top: 1px;
-              
             }
 
             &-text {
-              position: relative; 
               left: 9px;
+              position: relative;
             }
           }
 
           &__interact {
+            position: relative;
             background-color: #ececef;
             width: 40px;
             height: 20px;
-            position: relative; 
-            left: -31px; 
             top: 39px;
+            left: -31px;
             display: flex;
             font-size: 12px;
 
-            &__icon {
-
-            }
-
             &__like {
-              position: relative; left: 5px; top: -12px; 
+              position: relative;
+              top: -12px;
+              left: 5px;
             }
           }
 
@@ -198,7 +195,7 @@
 
             &-text {
               padding-right: 8px;
-              
+
               &--green {
                 color: #80b43f;
               }
@@ -229,7 +226,9 @@
             height: 30px;
 
             &-text {
-              position: relative; left: 5px; top: -12px;
+              position: relative;
+              left: 5px;
+              top: -12px;
             }
           }
         }
@@ -261,18 +260,24 @@
         display: flex;
       }
 
-      &__icon { 
-        position: relative; left: 2px; top: 18px; 
+      &__icon {
+        position: relative;
+        top: 18px;
+        left: 2px;
       }
 
-      &__text { 
-        position: relative; left: 27px; top: -20px;
+      &__text {
+        position: relative;
+        left: 27px;
+        top: -20px;
       }
-       
+
       &__tweet {
-        position: relative; left: 27px; top: -27px;
-        font-size: 14px;
+        position: relative;
         margin-bottom: 0;
+        font-size: 14px;
+        left: 27px;
+        top: -27px;
       }
 
       &__tweets {
